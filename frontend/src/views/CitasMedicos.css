@@ -1,0 +1,30 @@
+.citas-medicos-container {
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .citas-medicos-container .table {
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .citas-medicos-container .table th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+  }
+  
+  .citas-medicos-container .badge {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.65rem;
+  }
+  
+  .citas-medicos-container .btn-outline-danger:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .citas-medicos-container .alert {
+    border-radius: 0.5rem;
+  }

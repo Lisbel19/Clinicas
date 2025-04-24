@@ -1,0 +1,41 @@
+/* Estilos generales de la aplicación */
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para el contenido principal */
+  .router-view-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Estilos para los botones */
+  .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Ajustes para el navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  body {
+    overflow: auto !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Reset para cuando el modal está abierto */
+  body.modal-open {
+    overflow: auto !important;
+    padding-right: 0 !important;
+  }

@@ -1,0 +1,30 @@
+.mis-citas-container {
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .mis-citas-container .table {
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .mis-citas-container .table th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+  }
+  
+  .mis-citas-container .badge {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.65rem;
+  }
+  
+  .mis-citas-container .btn-outline-danger:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .mis-citas-container .alert {
+    border-radius: 0.5rem;
+  }

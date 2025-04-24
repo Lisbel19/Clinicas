@@ -1,0 +1,33 @@
+.home-container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+    padding: 2rem;
+  }
+  
+  .branding h1 {
+    color: #0d6efd;
+  }
+  
+  .branding p {
+    color: #6c757d;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .feature-box {
+    transition: all 0.3s ease;
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .cta h3 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content {
+    border-radius: 1rem;
+  }
+  

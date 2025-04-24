@@ -1,0 +1,35 @@
+.especialidades-container {
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+  }
+  
+  .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .modal-content {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
